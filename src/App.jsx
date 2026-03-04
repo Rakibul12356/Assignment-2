@@ -35,7 +35,7 @@ function App() {
     };
 
     return (
-        <div className="min-h-screen flex flex-col bg-gray-50">
+        <div className="min-h-screen flex flex-col bg-gray-100">
             <Navbar onNewTicket={handleNewTicket} />
             <Banner inProgressCount={tasksInProgress.length} resolvedCount={resolvedTasks.length} />
 
@@ -43,8 +43,8 @@ function App() {
             <main className="flex-1 max-w-[1400px] mx-auto w-full px-6 py-8">
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8">
                     {/* Left: Ticket Cards */}
-                    <div className="bg-white rounded-lg p-6 border border-gray-200">
-                        <h2 className="text-lg font-semibold text-gray-800 mb-5 pb-4 border-b border-gray-100">
+                    <div className="">
+                        <h2 className="text-lg font-semibold text-gray-800 mb-5 pb-4">
                             Customer Tickets
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

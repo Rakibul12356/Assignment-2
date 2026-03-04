@@ -1,7 +1,8 @@
 export default function Footer() {
     return (
-        <footer className="bg-[#1a1a1a] text-gray-400 pt-12 pb-6 mt-10">
-            <div className="max-w-[1400px] mx-auto px-6">
+        <footer className="relative overflow-hidden bg-black text-gray-400 pt-12 pb-6 mt-10">
+            <img src="/vector2.png" alt="" className="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none select-none" />
+            <div className="relative max-w-[1400px] mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-10 border-b border-gray-700">
                     {/* Brand */}
                     <div className="lg:col-span-1">

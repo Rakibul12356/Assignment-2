@@ -1,9 +1,6 @@
-
 ## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-02
 
-
 ---
-
 
 # Customer Support Zone
 
@@ -11,9 +8,9 @@ This project is a React-based **Customer Support Zone** designed to display cust
 
 ---
 
-## 📌 Features & Requirements 
+## 📌 Features & Requirements
 
-### ✅ Navbar 
+### ✅ Navbar
 
 * Website name/logo on the **left**.
 * Menu items and **New Ticket** button on the **right**.
@@ -34,12 +31,10 @@ This project is a React-based **Customer Support Zone** designed to display cust
    * Created **10–15 tickets** with the following properties:
 
      * `id`, `title`, `description`, `customer`, `priority`, `status`, `createdAt`.
-
 2. **Ticket Cards**
 
    * Display all ticket information in a **card layout**.
    * Cards arranged in a **2-column grid** (left side).
-
 3. **Task Status Section**
 
    * Clicking a card adds it to the **Task Status Section** (right side) and shows alert. It will increase the count of in-progress in banner
@@ -50,47 +45,42 @@ This project is a React-based **Customer Support Zone** designed to display cust
    * Clicking **Complete Button**:
 
      * show alert
-     
 
-
-### ✅ Footer 
+### ✅ Footer
 
 * Designed according to Figma.
 
-### ✅ Responsiveness 
+### ✅ Responsiveness
 
 * The entire website is **responsive** for mobile devices.
 
-### ✅ Readme: 
+### ✅ Readme:
+
 Create a README file to answer the following question-
 
- - What is JSX, and why is it used?
- - What is the difference between State and Props?
- - What is the useState hook, and how does it work?
- - How can you share state between components in React?
- - How is event handling done in React?
+- What is JSX, and why is it used?
+- What is the difference between State and Props?
+- What is the useState hook, and how does it work?
+- How can you share state between components in React?
+- How is event handling done in React?
 
 ---
 
-### 
+## 📌 Challenge Requirements
 
-## 📌 Challenge Requirements 
-
-### 🔔 React-Toastify 
+### 🔔 React-Toastify
 
 * Used **React-Toastify** to replace all alerts with stylish toast notifications.
 
-### 📝 Task Completion Logic 
+### 📝 Task Completion Logic
 
 Clicking **Complete Button**:
 
-1. It is **removed from Task Status**. 
-2. It is added to the **Resolved List**. 
-3. The **In Progress count decreases**. 
-4. The **Resolved count increases**. 
-5. It is removed from the **Customer Tickets list**. 
-
-
+1. It is **removed from Task Status**.
+2. It is added to the **Resolved List**.
+3. The **In Progress count decreases**.
+4. The **Resolved count increases**.
+5. It is removed from the **Customer Tickets list**.
 
 ## 🧰 Required Technology Stack
 
@@ -111,9 +101,10 @@ Clicking **Complete Button**:
 ---
 
 ## 🔗 Submission
-- **Live Link :** YOUR_DEPLOYED_URL_HERE
-- **GitHub Repository:** YOUR_REPO_URL_HERE
 
+**Live Link :** YOUR_DEPLOYED_URL_HERE
+
+**GitHub Repository:** YOUR_REPO_URL_HERE
 
 ### 📅 Deadline For 60 marks: 5th March, 2026 (11:59 pm ⏱️)
 
@@ -121,7 +112,4 @@ Clicking **Complete Button**:
 
 ### 📅 Deadline For 30 marks: Until the next assignment is published.
 
-
 ---
-
-
