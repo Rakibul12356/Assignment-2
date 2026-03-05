@@ -7,17 +7,16 @@ export default function Footer() {
                     {/* Brand */}
                     <div className="lg:col-span-1">
                         <h3 className="text-white text-lg font-bold mb-4">CS — Ticket System</h3>
-                        <p className="text-sm leading-relaxed text-gray-500">
-                            Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum
-                            has been the industry's standard dummy text ever since the 1500s, when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book.
+                        <p className="text-base leading-relaxed text-gray-200">
+                            Your trusted customer support solution for managing tickets efficiently.
+                            We help businesses streamline their support process, track customer issues in real-time.
                         </p>
                     </div>
 
                     {/* Company */}
                     <div>
-                        <h4 className="text-white text-sm font-semibold mb-4">Company</h4>
-                        <ul className="space-y-3 text-sm">
+                        <h4 className="text-white text-base font-semibold mb-4">Company</h4>
+                        <ul className="space-y-3 text-base">
                             <li><a href="#" className="hover:text-white transition">About Us</a></li>
                             <li><a href="#" className="hover:text-white transition">Our Mission</a></li>
                             <li><a href="#" className="hover:text-white transition">Contact Sales</a></li>
@@ -27,7 +26,7 @@ export default function Footer() {
                     {/* Services */}
                     <div>
                         <h4 className="text-white text-sm font-semibold mb-4">Services</h4>
-                        <ul className="space-y-3 text-sm">
+                        <ul className="space-y-3 text-base">
                             <li><a href="#" className="hover:text-white transition">Products & Services</a></li>
                             <li><a href="#" className="hover:text-white transition">Customer Stories</a></li>
                             <li><a href="#" className="hover:text-white transition">Download Apps</a></li>
@@ -36,8 +35,8 @@ export default function Footer() {
 
                     {/* Information */}
                     <div>
-                        <h4 className="text-white text-sm font-semibold mb-4">Information</h4>
-                        <ul className="space-y-3 text-sm">
+                        <h4 className="text-white text-base font-semibold mb-4">Information</h4>
+                        <ul className="space-y-3 text-base">
                             <li><a href="#" className="hover:text-white transition">Privacy Policy</a></li>
                             <li><a href="#" className="hover:text-white transition">Terms & Conditions</a></li>
                             <li><a href="#" className="hover:text-white transition">Join Us</a></li>
@@ -46,8 +45,8 @@ export default function Footer() {
 
                     {/* Social Links */}
                     <div>
-                        <h4 className="text-white text-sm font-semibold mb-4">Social Links</h4>
-                        <ul className="space-y-3 text-sm">
+                        <h4 className="text-white text-base font-semibold mb-4">Social Links</h4>
+                        <ul className="space-y-3 text-base">
                             <li className="flex items-center gap-2">
                                 <span className="w-5 h-5 rounded-full bg-gray-600 flex items-center justify-center text-white text-xs font-bold">𝕏</span>
                                 <a href="#" className="hover:text-white transition">@CS — Ticket System</a>
