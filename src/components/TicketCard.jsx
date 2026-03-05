@@ -1,13 +1,13 @@
 export default function TicketCard({ ticket, onSelect }) {
     const priorityStyles = {
-        'HIGH PRIORITY': 'text-red-600 bg-red-100',
-        'MEDIUM PRIORITY': 'text-yellow-700 bg-yellow-100',
-        'LOW PRIORITY': 'text-blue-600 bg-blue-100',
+        'HIGH PRIORITY': 'text-[#F83044] ',
+        'MEDIUM PRIORITY': 'text-[#FEBB0C] ',
+        'LOW PRIORITY': 'text-[#02A53B] ',
     };
 
     const statusStyles = {
-        Open: 'text-emerald-700 bg-emerald-100',
-        'In-Progress': 'text-yellow-700 bg-yellow-100',
+        Open: 'text-[#02A53B] bg-[#B9F8CF]',
+        'In-Progress': 'text-[#FEBB0C] bg-[#F8F3B9]',
         Resolved: 'text-blue-700 bg-blue-100',
     };
 
@@ -26,13 +26,13 @@ export default function TicketCard({ ticket, onSelect }) {
             </div>
 
             {/* Description */}
-            <p className="text-xs text-gray-500 leading-relaxed mb-4 line-clamp-2">{ticket.description}</p>
+            <p className="text-sm text-gray-500 leading-relaxed mb-4 line-clamp-2">{ticket.description}</p>
 
             {/* Footer */}
             <div className="flex justify-between items-center pt-3 border-t border-gray-100 flex-wrap gap-2">
                 <div className="flex items-center gap-2">
                     <span className="text-xs text-gray-400 font-medium">{ticket.id}</span>
-                    <span className={`text-[10px] font-bold px-2 py-0.5 rounded ${priorityStyles[ticket.priority]}`}>
+                    <span className={`text-xs font-medium px-2 py-0.5 rounded ${priorityStyles[ticket.priority]}`}>
                         {ticket.priority}
                     </span>
                 </div>

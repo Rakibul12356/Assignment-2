@@ -35,7 +35,7 @@ function App() {
     };
 
     return (
-        <div className="min-h-screen flex flex-col bg-gray-100">
+        <div className="min-h-screen flex flex-col bg-[#F5F5F5]">
             <Navbar onNewTicket={handleNewTicket} />
             <Banner inProgressCount={tasksInProgress.length} resolvedCount={resolvedTasks.length} />
 
